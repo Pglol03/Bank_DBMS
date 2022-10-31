@@ -1,0 +1,7 @@
+Create table entity_Account
+(Account_No int(10), Account_Type varchar(20), Interest_Rate int(10), Balance int(10));
+
+Alter table entity_Account
+Add constraint pk_AccNo
+PRIMARY KEY(Account_No);
+
